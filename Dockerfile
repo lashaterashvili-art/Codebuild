@@ -1,5 +1,8 @@
-FROM nginx:latest
+FROM nginx:alpine
 
-COPY ./index.html /var/www/html/index.html
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY index.html /usr/share/nginx/html/index.html
+
 
 
