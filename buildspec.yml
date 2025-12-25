@@ -4,7 +4,7 @@ env:
   variables:
     AWS_DEFAULT_REGION: "eu-central-1"
     AWS_ACCOUNT_ID: "612293362657"
-    ECR_REPO_NAME: "webapp"
+    ECR_REPO_NAME: "codebuild-lasha"
     ECR_IMAGE_TAG: "latest"
 
 phases:
